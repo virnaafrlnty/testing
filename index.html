@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Jam Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        
+        <div class="clock">
+            <div class="circle" style="--clr:#04fc43" id="sc"><i></i></div>
+            <div class="circle circle2" style="--clr:#fee800" id="mn"><i></i></div>
+            <div class="circle circle3" style="--clr:#ff2972" id="hr"><i></i></div>
+
+            <span style="--i:1;"><b>1</b></span>
+            <span style="--i:2;"><b>2</b></span>
+            <span style="--i:3;"><b>3</b></span>
+            <span style="--i:4;"><b>4</b></span>
+            <span style="--i:5;"><b>5</b></span>
+            <span style="--i:6;"><b>6</b></span>
+            <span style="--i:7;"><b>7</b></span>
+            <span style="--i:8;"><b>8</b></span>
+            <span style="--i:9;"><b>9</b></span>
+            <span style="--i:10;"><b>10</b></span>
+            <span style="--i:11;"><b>11</b></span>
+            <span style="--i:12;"><b>12</b></span>
+        </div>
+
+        <!-- jam digital kerenn-->
+        <div id="waktu">
+            <div id="jam">00</div>
+            <div id="menit">00</div>
+            <div id="detik">00</div>
+            <div id="ampm">AM</div>
+        </div>
+
+        <div class="dark-mode">
+            <div class="moon-sun">
+                <i class="fas fa-moon icon moon"></i>
+                <i class="fas fa-sun icon sun"></i>
+            </div>
+            <div class="toggle">
+                <div class="switch"></div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
